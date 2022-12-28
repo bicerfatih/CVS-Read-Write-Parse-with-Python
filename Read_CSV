@@ -1,0 +1,5 @@
+Import CSV
+with open('/Users/f/Desktop/data_example/data_example.csv','r') as _csvfile:
+	csv_reader = csv.reader(_csvfile)
+	for line in csv_reader:
+		print(line)
